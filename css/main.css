@@ -1,0 +1,170 @@
+					/* CSS Document */
+
+/* Ce document CSS est commun à toutes les pages du site Web*/
+
+/*Liens et sélections*/
+
+a:link{
+	text-decoration:none;
+} 
+	
+:focus {
+	outline: 0;
+}
+
+.clear{
+   	clear: both;
+}
+
+
+
+/*Header*/
+
+.titre-principal {
+ 	background: white;
+	margin: 0;
+	height: 5rem;
+}
+
+.image-titre {
+	max-width: 100%;
+	height: 5rem;
+	overflow: hidden;
+}
+
+
+
+/*Barre de navigation*/
+
+ul{	
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+ 	overflow: hidden;
+  	background-color: #333;
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.nav {
+  	float: left;
+}
+
+.nav a {
+	font-family:Roboto, sans-serif;
+	font-size: 1.5rem;
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 15px 30px;
+  	text-decoration: none;
+}
+
+.nav a:hover:not(.active) {
+ 	background-color: #585858;
+}
+
+.active {
+  	background-color: #58ACFA;
+}
+
+
+
+/*Titres*/
+
+.title-left {
+	text-align: left;
+}
+
+.title-right {
+	text-align: right;
+}
+
+
+
+/*Contenu*/
+
+html, body {
+	padding: 0;
+    margin: 0;
+	background-color: white;
+}
+
+img {
+	
+}
+
+.main {
+	margin-left: auto;
+    margin-right: auto;
+	padding-left:7%;
+	padding-right:7%;	
+}
+	
+.content-type1 {
+	padding: 3% 0% 5% 0%;
+    margin: 0;
+	background-color: white;
+}
+
+.content-type2 {
+	margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.paragraphe-type1 {
+	padding: 5% 5% 5% 5%;
+    margin: 0;
+}
+
+
+
+/* Styles de polices */
+
+.loremipsum {
+	font-family:Roboto, sans-serif;
+	font-size: 1.5rem;
+	color: black;
+	text-align: justify;
+}
+
+h1 {
+	font-family:Roboto, sans-serif;
+	background: none;
+	text-align: center;
+	font-size: 2.6rem;
+	font-weight: 600;
+	color: #333;
+}
+	
+h2 {
+	font-family:Roboto, sans-serif;
+	background: none;
+	font-size: 2.6rem;
+	font-weight: 600;
+	color: #333;
+	
+}
+	
+h3 {
+	font-family:Roboto, sans-serif;
+	background: none;
+	font-size: 2rem;
+	font-weight: 500;
+	color: #333;
+	
+}
+	
+p {	
+	font-family:Roboto, sans-serif;
+	background: none;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: black;
+	text-align: justify;
+}
