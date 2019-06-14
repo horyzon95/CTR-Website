@@ -67,7 +67,7 @@ ul{
 }
 
 .active {
-  	background-color: #58ACFA;
+  	background-color: #5882FA;
 }
 
 
@@ -139,7 +139,7 @@ h1 {
 	text-align: center;
 	font-size: 2.6rem;
 	font-weight: 600;
-	color: #333;
+	color: #5882FA;
 }
 	
 h2 {
@@ -147,7 +147,7 @@ h2 {
 	background: none;
 	font-size: 2.6rem;
 	font-weight: 600;
-	color: #333;
+	color: #5882FA;
 	
 }
 	
@@ -156,7 +156,7 @@ h3 {
 	background: none;
 	font-size: 2rem;
 	font-weight: 500;
-	color: #333;
+	color: #58ACFA;
 	
 }
 	
